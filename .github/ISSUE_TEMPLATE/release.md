@@ -247,7 +247,8 @@ in the infrastructure repository. All of these tests can be run in parallel.
   - [ ] Ensure that all members of the release-notes team have signed-off on this issue.
 
   - [ ] Ensure that the announcement blog post has been published and
-    announced, if applicable, by pinging the product team in #release.
+    announced, if applicable, by pinging the product and docs team in 
+    #release.
 
 ## Finish
 
