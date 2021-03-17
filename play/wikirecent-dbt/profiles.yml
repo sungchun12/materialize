@@ -1,0 +1,13 @@
+default:
+  outputs:
+    dev:
+      type: materialize
+      threads: 1
+      host: localhost
+      port: 6875
+      user: materialize
+      pass: pass
+      dbname: materialize
+      schema: analytics
+
+  target: dev
