@@ -50,8 +50,9 @@ docker run -p 6875:6875 materialize/materialized:v0.5.2 --workers 1
 
 # open a new terminal shell
 # go into docker container shell based on specific container id
+# hint: run `docker ps` and copy and paste the container id related to the image: `materialize/materialized:v0.5.2`
 # example: docker exec -it 6857b177e093 /bin/sh
-docker exec -it 6857b177e093 /bin/sh
+docker exec -it <your material container id> /bin/sh
 
 # install curl
 apt-get update
